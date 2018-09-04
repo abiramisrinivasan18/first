@@ -102,6 +102,16 @@ section:after {
 function changeimage(image) {
     document.getElementById("image").src = "Karunanidhi_Signature.svg";
 }
+function bigImg(x) {
+    x.style.height = "350";
+    x.style.width = "450";
+}
+
+function normalImg(x) {
+    x.style.height = "300";
+    x.style.width = "400";
+}
+
 </script>
 
 </head>
@@ -133,7 +143,7 @@ function changeimage(image) {
   
 </header1>
 <header2>
-  <p onclick="changeimage(this)"><img id="image" src="201808071947042683_Karunanidhi-The-script-writer-who-wrote-Tamil-Nadus_SECVPF-620x405.jpg" width=400 height=300 ></p>
+  <p onclick="changeimage(this)" onmouseover="bigImg(this)" onmouseout="normalImg(this)" ><img id="image" src="201808071947042683_Karunanidhi-The-script-writer-who-wrote-Tamil-Nadus_SECVPF-620x405.jpg" width=400 height=300 ></p>
 </header2>
 
 <section> 
